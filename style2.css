@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Ovo&display=swap");
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: "DM Sans", sans-serif;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  margin: 20px;
+  margin-right: 10px;
+  margin-top: 30px;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #000000;
+}
+
+#logo {
+  width: 350px;
+  height: 80px;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+main {
+  background-color: #fff;
+}
+
+.pictures2 img {
+  display: flex;
+  justify-content: center !important;
+  margin: 0 auto !important;
+  width: 1080px;
+  height: 460px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Ovo", serif;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  color: #3b5022 !important;
+  font-size: 50px !important;
+}
+
+.titulo p {
+  font-size: 25px;
+  font-style: normal;
+  line-height: 1.5em;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #697e51 !important;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Ovo", serif;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  font-size: 40px !important;
+}
+
+.parrafo2 p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5em;
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+}
+
+.parrafo img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+}
+
+.parrafo3 img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 20 px;
+  shape-outside: circle();
+  clip-path: circle();
+}
+
+.parrafo p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5em;
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #283618;
+}
+
+.textofooter h3 {
+  color: floralwhite;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Ovo", serif;
+  text-align: center !important;
+  align-content: center !important;
+  padding: 5px;
+}
